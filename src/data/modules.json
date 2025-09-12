@@ -1,0 +1,115 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Introduction to HTML", 
+      "img": "src/assets/html.png",
+      "modules": {
+        "pdf": [
+          "public/module/html-intro-module.pdf"
+        ],
+        "videos": []
+      }
+    },
+    {
+      "id": 2,
+      "title": "HTML – Elements and Lists", 
+      "img": "src/assets/logo/html.png",
+      "modules": {
+        "pdf": [
+          "public/module/html-elements-module.pdf"
+        ],
+        "videos": []
+      }
+    },
+    {
+      "id": 3,
+      "title": "HTML – Formatting",
+      "img": "src/assets/logo/html.png",
+      "modules": {
+        "pdf": [
+          "public/module/html-formating-module.pdf"
+        ],
+        "videos": []
+      }
+    },
+    {
+      "id": 4,
+      "title": "HTML – Phrase Tags and Tables",
+      "img": "src/assets/logo/html.png",
+      "modules": {
+        "pdf": [
+          "public/module/html_phrase_tags_and_tables_module.pdf"
+        ],
+        "videos": []
+      }
+    },
+    {
+      "id": 5, 
+      "title": "Introduction to JavaScript", 
+      "img": "src/assets/logo/js.png",
+      "modules": {
+        "pdf": [
+          "public/module/Introduction_to_JavaScript_Lesson.pdf"
+        ],
+        "videos": []
+      }
+    },
+    {
+      "id": 6, 
+      "title": "JavaScript - Placement",
+      "img": "src/assets/logo/js.png",
+      "modules": {
+        "pdf": [
+          "public/module/JavaScript_Placement_Lesson.pdf"
+        ],
+        "videos": []
+      }
+    },
+    {
+      "id": 7, 
+      "title": "JavaScript - Operators", 
+      "img": "src/assets/logo/js.png",
+      "modules": {
+        "pdf": [
+          "public/module/js_operators_lesson.pdf"
+        ],
+        "videos": []
+      }
+    },
+    {
+      "id": 8,
+      "title": "JavaScript – Popup Boxes", 
+      "img": "src/assets/logo/js.png",
+      "modules": {
+        "pdf": [
+          "public/module/js_popup_boxes_lesson.pdf"
+        ],
+        "videos": []
+      }
+    },
+    {
+      "id": 9, 
+      "title": "JavaScript – Functions", 
+      "img": "src/assets/logo/js.png",
+      "modules": {
+        "pdf": [
+          "public/module/js_functions_lesson.pdf"
+        ],
+        "videos": []
+      }
+    },
+    {
+      "id": 10, 
+      "title": "JavaScript – Events", 
+      "img": "src/assets/logo/js.png",
+      "modules": {
+        "pdf": [
+          "public/module/events_js.pdf"
+        ],
+        "videos": []
+      }
+    }
+  ]
+}
+
