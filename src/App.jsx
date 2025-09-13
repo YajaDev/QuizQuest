@@ -3,6 +3,7 @@ import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
 import Quiz from "./pages/quiz";
 import NotFound from "./pages/NotFound";
+import Module from "./pages/Module";
 
 const App = () => {
 
@@ -11,6 +12,7 @@ const App = () => {
       <Route path="/" element={<RootLayout />} errorElement={<NotFound />}>
         <Route index element={<Home />}/>
         <Route path="quiz" element={<Quiz />}/>
+        <Route path="module" element={<Module />} />
       </Route>
     )
   );

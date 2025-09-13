@@ -3,7 +3,8 @@
 @theme {
   --color-blue: rgb(47, 39, 206);
   --color-ligth-blue: rgb(222, 220, 255);
-  --color-gray: rgba(24, 24, 26, 0.035)
+  --color-gray: rgba(24, 24, 26, 0.035);
+  --color-bc: rgb(189, 193, 198); /* Border color */
 }
 
 @layer base{
@@ -13,6 +14,12 @@
 
   .blue-button:hover {
     @apply shadow-[0_10px_15px_0_rgba(48,51,255,0.6)];
+  }
+}
+
+@layer utilities{
+  .module-box:hover {
+    @apply shadow-[0_1px_2px_0_rgba(60,64,67,0.3),_0_2px_6px_2px_rgba(60,64,67,0.15)];
   }
 }
 
