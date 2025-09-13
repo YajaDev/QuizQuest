@@ -9,7 +9,7 @@
 
 @layer base{
     .blue-button {
-    @apply px-3 pt-[4px] pb-2 font-bold text-white rounded-xs tracking-wide bg-blue cursor-pointer transition-shadow duration-300;
+    @apply px-3 pt-1.5 pb-2   font-bold font-[Poppins] text-white rounded-xs tracking-wide bg-blue cursor-pointer transition-shadow duration-300;
   }
 
   .blue-button:hover {
@@ -18,6 +18,10 @@
 }
 
 @layer utilities{
+  .module-box {
+    @apply bg-white border-1 rounded-sm p-5 border-bc
+  }
+
   .module-box:hover {
     @apply shadow-[0_1px_2px_0_rgba(60,64,67,0.3),_0_2px_6px_2px_rgba(60,64,67,0.15)];
   }

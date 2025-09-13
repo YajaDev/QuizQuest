@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const NotFound = () => {
   return (
-    <div className="grid place-content-center h-screen w-screen bg-gray absolute">
+    <div className="grid place-content-center h-screen w-screen bg-gray absolute font-[Poppins]">
       <h1 className="text-3xl font-medium">404 | Not Found Page</h1>
       <Link 
         to={"/"}

@@ -13,7 +13,7 @@ const Navbar = ({setIsOpen, isOpen}) => {
           p-1.5 cursor-pointer rounded-md transition-colors duration-500
         hover:bg-gray"/>
         <Link to={"/"}>
-          <h1 className='font-sans text-2xl font-bold tracking-wide cursor-pointer'>
+          <h1 className='font-[Poppins] text-2xl font-bold tracking-wide cursor-pointer'>
             <span className="text-blue">Q</span>uizQuest
           </h1>
         </Link>
