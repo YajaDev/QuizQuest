@@ -7,8 +7,7 @@ const Home = () => {
         <p className="text-center text-xs text-gray-500">Discover a world of engaging quizzes. Dive in and start your quiz journey today!</p>
         <div className="flex justify-center gap-5 pt-5">
           <button 
-            className="px-3 py-2 font-bold text-white rounded-xs tracking-wide bg-blue cursor-pointer transition-shadow duration-300
-            hover:shadow-[0_10px_15px_0_rgba(48,51,255,0.6)]">
+            className="blue-button">
               Start Quiz
           </button>
           <button 

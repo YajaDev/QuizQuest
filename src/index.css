@@ -6,6 +6,16 @@
   --color-gray: rgba(24, 24, 26, 0.035)
 }
 
+@layer base{
+    .blue-button {
+    @apply px-3 pt-[4px] pb-2 font-bold text-white rounded-xs tracking-wide bg-blue cursor-pointer transition-shadow duration-300;
+  }
+
+  .blue-button:hover {
+    @apply shadow-[0_10px_15px_0_rgba(48,51,255,0.6)];
+  }
+}
+
 .active {
   background: rgb(47, 39, 206);
   color: white;

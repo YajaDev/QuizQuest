@@ -1,6 +1,7 @@
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
+import Quiz from "./pages/quiz";
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
     createRoutesFromElements(
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Home />}/>
+z        <Route path="quiz" element={<Quiz />}/>
       </Route>
     )
   );
