@@ -3,7 +3,7 @@ import {lessons} from "../data/modules.json"
 const Module = () => {
 
   return (
-    <div className="grid place-items-center absolute w-full pt-5 gap-4 bg-gray
+    <div className="grid place-items-center absolute w-full pt-5 gap-4 bg-blue-grey-light
     md:grid-cols-2 md:p-7 md:gap-6 
     lg:grid-cols-3 lg:p-10 lg:gap-8
     2xl:grid-cols-4 2xl:p-10 2xl:gap-10">
