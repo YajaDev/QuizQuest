@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+*{
+  scrollbar-width: thin;
+  scrollbar-color: #443DFF #fff;
+}
+
 @theme {
   --color-blue: rgb(47, 39, 206);
   --color-ligth-blue: rgb(222, 220, 255);

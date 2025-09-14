@@ -2,11 +2,14 @@ import {lessons} from "../data/modules.json"
 
 const Quiz = () => {
   return (
-    <div className="grid place-items-center font-[Poppins] absolute w-full pt-5 gap-4 bg-gray">
+    <div className="grid place-items-center font-[Poppins] absolute w-full p-5 gap-4 bg-gray 
+    md:grid-cols-2 md:p-7 md:gap-6 
+    lg:grid-cols-3 lg:p-10 lg:gap-8
+    2xl:grid-cols-4 2xl:p-10 2xl:gap-10">
         {lessons.map(module => {
           return (
           <div 
-          className="flex flex-col items-center text-center w-[88%] bg-white p-8 rounded-xl module-box"
+          className="flex flex-col items-center text-center w-[90%] md:w-full bg-white p-8 rounded-xl module-box"
           key={module.id}>
             <img
               src={module.img} 

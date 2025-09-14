@@ -3,12 +3,15 @@ import {lessons} from "../data/modules.json"
 const Module = () => {
 
   return (
-    <div className="grid place-items-center absolute w-full pt-5 gap-4 bg-gray">
+    <div className="grid place-items-center absolute w-full pt-5 gap-4 bg-gray
+    md:grid-cols-2 md:p-7 md:gap-6 
+    lg:grid-cols-3 lg:p-10 lg:gap-8
+    2xl:grid-cols-4 2xl:p-10 2xl:gap-10">
       {lessons.map(lesson => {
         return (
           <div
             key={lesson.id} 
-            className="w-[85%] module-box">
+            className="w-[85%] md:w-full module-box">
             <h1 className="font-[Poppins] font-bold text-2xl pb-2">Chapter {lesson.id}</h1>
             <div className="relative ">
               <img
