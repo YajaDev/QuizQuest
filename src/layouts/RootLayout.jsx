@@ -10,8 +10,8 @@ const RootLayout = () => {
   return (
     <div className="flex flex-col h-screen">
       <Navbar setIsOpen={setIsOpen} isOpen={isOpen}/>
-      <div className="flex h-screen relative">
-        <Sidebar isOpen={isOpen} />
+      <div className={`flex h-screen relative ${isOpen && 'overflow-hidden'}`}>
+        <Sidebar setIsOpen={setIsOpen} isOpen={isOpen} />
         <Outlet />
       </div>
     </div>

@@ -6,7 +6,9 @@ const Module = () => {
     <div className="grid place-items-center absolute w-full pt-5 gap-4 bg-gray">
       {lessons.map(lesson => {
         return (
-          <div className="w-[85%] module-box">
+          <div
+            key={lesson.id} 
+            className="w-[85%] module-box">
             <h1 className="font-[Poppins] font-bold text-2xl pb-2">Chapter {lesson.id}</h1>
             <div className="relative ">
               <img
