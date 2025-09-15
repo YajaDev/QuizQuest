@@ -8,9 +8,9 @@ const RootLayout = () => {
   const [isOpen,setIsOpen] = useState(false)
 
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen bg-ligth-blue">
       <Navbar setIsOpen={setIsOpen} isOpen={isOpen}/>
-      <div className={`flex h-screen relative ${isOpen && 'overflow-hidden'}`}>
+      <div className={`flex h-screen relative ${isOpen && 'overflow-hidden'} lg:overflow-hidden `}>
         <Sidebar setIsOpen={setIsOpen} isOpen={isOpen} />
         <Outlet />
       </div>

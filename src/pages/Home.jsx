@@ -1,7 +1,7 @@
 
 const Home = () => {
   return (
-    <div className="flex justify-center items-center absolute h-full w-full p-3.5 font-[Poppins] bg-blue-grey-light">
+    <div className="flex absolute lg:relative lg:pl-0 justify-center z-6 items-center h-full w-full p-3.5 font-[Poppins] mt-[1px] bg-blue-grey-light">
       <div>
         <h1 className="text-center text-3xl font-bold pb-5 ">Unlock Knowledge: Dive into the Ultimate Quiz Experience!</h1>
         <p className="text-center text-xs text-gray-500">Discover a world of engaging quizzes. Dive in and start your quiz journey today!</p>

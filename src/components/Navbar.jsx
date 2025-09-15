@@ -11,7 +11,7 @@ const Navbar = ({setIsOpen, isOpen}) => {
         onClick={() => setIsOpen(!isOpen)}
         className="bx bx-menu-alt-left bx-sm 
           p-1.5 cursor-pointer rounded-md transition-colors duration-500
-        hover:bg-gray"/>
+        hover:bg-ligth-blue"/>
         <Link to={"/"}>
           <h1 className='font-[Poppins] text-2xl font-bold tracking-wide cursor-pointer'>
             <span className="text-blue">Q</span>uizQuest
