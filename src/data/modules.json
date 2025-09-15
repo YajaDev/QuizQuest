@@ -7,7 +7,7 @@
       "bgImg": "src/assets/htmlbg.png",
       "modules": {
         "pdf": [
-          "public/module/html-intro-module.pdf"
+          "module/html-intro-module.pdf"
         ],
         "videos": []
       }
@@ -19,7 +19,7 @@
       "bgImg": "src/assets/htmlbg.png",
       "modules": {
         "pdf": [
-          "public/module/html-elements-module.pdf"
+          "module/html-elements-module.pdf"
         ],
         "videos": []
       }
@@ -31,7 +31,7 @@
       "bgImg": "src/assets/htmlbg.png",
       "modules": {
         "pdf": [
-          "public/module/html-formating-module.pdf"
+          "module/html-formating-module.pdf"
         ],
         "videos": []
       }
@@ -43,7 +43,7 @@
       "bgImg": "src/assets/htmlbg.png",
       "modules": {
         "pdf": [
-          "public/module/html_phrase_tags_and_tables_module.pdf"
+          "module/html_phrase_tags_and_tables_module.pdf"
         ],
         "videos": []
       }
@@ -55,7 +55,7 @@
       "bgImg": "src/assets/jsbg.png",
       "modules": {
         "pdf": [
-          "public/module/Introduction_to_JavaScript_Lesson.pdf"
+          "module/Introduction_to_JavaScript_Lesson.pdf"
         ],
         "videos": []
       }
@@ -67,7 +67,7 @@
       "bgImg": "src/assets/jsbg.png",
       "modules": {
         "pdf": [
-          "public/module/JavaScript_Placement_Lesson.pdf"
+          "module/JavaScript_Placement_Lesson.pdf"
         ],
         "videos": []
       }
@@ -79,7 +79,7 @@
       "bgImg": "src/assets/jsbg.png",
       "modules": {
         "pdf": [
-          "public/module/js_operators_lesson.pdf"
+          "module/js_operators_lesson.pdf"
         ],
         "videos": []
       }
@@ -91,7 +91,7 @@
       "bgImg": "src/assets/jsbg.png",
       "modules": {
         "pdf": [
-          "public/module/js_popup_boxes_lesson.pdf"
+          "module/js_popup_boxes_lesson.pdf"
         ],
         "videos": []
       }
@@ -103,7 +103,7 @@
       "bgImg": "src/assets/jsbg.png",
       "modules": {
         "pdf": [
-          "public/module/js_functions_lesson.pdf"
+          "module/js_functions_lesson.pdf"
         ],
         "videos": []
       }
@@ -115,7 +115,7 @@
       "bgImg": "src/assets/jsbg.png",
       "modules": {
         "pdf": [
-          "public/module/events_js.pdf"
+          "module/events_js.pdf"
         ],
         "videos": []
       }
